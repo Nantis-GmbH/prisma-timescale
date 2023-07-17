@@ -1,0 +1,23 @@
+{
+  "name": "@nantis/prisma-timescale",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Prisma Data Client for TimescaleDB",
+  "author": "Friedrich Mäckle <maeckle@nantis.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "prisma": "^5.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "prisma:generate": "prisma generate",
+    "prisma:format": "prisma format",
+    "prisma:validate": "prisma validate",
+    "prisma:migrate:dev:create-only": "prisma migrate dev --create-only",
+    "prisma:migrate:dev": "prisma migrate dev",
+    "prisma:migrate:deploy": "prisma migrate deploy",
+    "prisma:migrate:dev:reset": "prisma migrate reset"
+  }
+}
